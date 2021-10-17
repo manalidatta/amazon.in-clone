@@ -1,0 +1,36 @@
+.navbar {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #232f3e;
+    top: 0;
+    z-index: 100;
+    margin: 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.navbar__menu {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    color: white;
+}
+
+.navbar__menuIcon {
+    color: white;
+    margin-left: 5px;
+}
+
+.navbar__last {
+    margin-left: 18px;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+
+.navbar__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    color: white;
+}
